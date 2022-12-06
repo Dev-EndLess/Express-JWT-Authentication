@@ -15,7 +15,9 @@
 <ol>
   <li>Creating JWT tokens at authorization
   <li>Creating JWT verification middleware
-  <li>Applying JWT token verification to specific routes
+  <li>Applying JWT token verification to many routes
+  <li>Adding cookie-parser middleware
+  <li>Create a refresh token controller
 
 
 
