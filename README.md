@@ -9,8 +9,6 @@
 ## jsonwebtoken Package
 ### https://www.npmjs.com/package/jsonwebtoken
 
-**Description:**
-<p>Add user password authentication to your Node.js & Express app. In this tutorial, you will learn how to add user registration and authentication routes. We'll hash and salt passwords user passwords for safe storage, too.
 
 <ol>
   <li>Creating JWT tokens at authorization
@@ -18,6 +16,16 @@
   <li>Applying JWT token verification to many routes
   <li>Adding cookie-parser middleware
   <li>Create a refresh token controller
+  <li>Creating a logout controller
+
+**info**
+In frontend if you use fetch you need include a credentials options or
+the browser will send and error.
+origin has beeen blocked by CORS. The value of the 'Access-Control-Allow-Credentials' header in the response is ''
+so we fix the problem by adding some credentials(check files in folders) 
+
+Adding also options for cookies:
+{ httpOnly: true, sameSite: 'None' secure: true }
 
 
 

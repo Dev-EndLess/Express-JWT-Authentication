@@ -39,3 +39,8 @@
 20221206	17:54:32	412267a4-4790-4429-8c7c-15bf736b44d3	GET	undefined	/employees	reqLog.txt
 20221206	18:24:20	64b20d9d-d5d2-4ac3-a2d7-2fab7117f325	POST	undefined	/auth	reqLog.txt
 20221206	18:26:10	75c57904-4557-4907-b865-1ad99aa91a1c	GET	undefined	/refresh	reqLog.txt
+20221206	20:56:36	3521b3c3-4d89-4f1f-85e0-49ce63cf5863	POST	undefined	/register	reqLog.txt
+20221206	20:56:51	66900eaf-adae-42ec-9a1f-3d9a96a3623b	POST	undefined	/auth	reqLog.txt
+20221206	20:57:36	3ff36e7e-767f-4571-8be2-aa729cd503da	GET	undefined	/refresh	reqLog.txt
+20221206	20:57:53	12b24fd7-5743-4b8c-89e2-c48348414faa	GET	undefined	/employees	reqLog.txt
+20221206	21:00:40	76cf8f29-d2ee-4f70-939c-4d418e4d8130	GET	undefined	/employees	reqLog.txt

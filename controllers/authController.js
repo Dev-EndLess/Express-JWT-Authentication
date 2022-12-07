@@ -46,7 +46,7 @@ const handleLogin = async (req, res) => {
 
     // set cookie as http only is not avaible to javascript
     // much more secure than store in local storage or cookie avaible to javascript
-    res.cookie('jwt', refreshToken, { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 }) // 1 day
+    res.cookie('jwt', refreshToken, { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 }) // 1 day
 
     // in the frontend you store this access token in memory 
     // not secure in local storage
