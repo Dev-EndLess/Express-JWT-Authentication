@@ -1,5 +1,5 @@
 {
-  "name": "express-Authentication",
+  "name": "express-JWT-Jason-Web-Token",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
